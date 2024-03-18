@@ -76,6 +76,9 @@ export const ModalForm = ({ onSubmit, closeModal }) => {
           <ButtonUpdate type="submit" disabled={isSubmitting}>
             Додати
           </ButtonUpdate>
+          <ButtonUpdate type="submit" disabled={isSubmitting}>
+            Оновити
+          </ButtonUpdate>
         </Formstyled>
       )}
     </Formik>

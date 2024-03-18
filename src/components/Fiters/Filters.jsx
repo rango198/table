@@ -15,7 +15,7 @@ export const Filters = ({ showModal }) => {
     <>
       <div
         style={{
-          width: '775px',
+          width: '760px',
           margin: '50px auto',
           display: 'flex',
           justifyContent: 'space-between',

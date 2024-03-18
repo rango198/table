@@ -1,5 +1,5 @@
 import { Toaster } from 'react-hot-toast';
-import { addItem, editItem, getAll } from './Table/khaiAPI/api';
+import { addItem, getAll } from './Table/khaiAPI/api';
 import { Filters } from 'components/Fiters/Filters';
 import TableUniver from './Table/TableUniver';
 import React, { useEffect, useState } from 'react';
@@ -45,6 +45,7 @@ export const App = () => {
 
   const handleEdit = async id => {
     const dataId = data.find(item => item.id === id);
+    console.log(dataId);
     // const result = await editItem(dataId, id);
     // console.log(result);
     return;

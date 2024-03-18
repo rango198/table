@@ -19,7 +19,7 @@ export const ModalWindow = styled.div`
   transform: translate(-50%, -50%);
   width: 30vw;
   height: 85vh;
-  background-color: white;
+  background-color: #597885c0;
   padding: 5px;
   display: flex;
   flex-direction: column;
